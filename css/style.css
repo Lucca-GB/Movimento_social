@@ -41,3 +41,82 @@ body{
     right: 0;
     z-index: 1;
 }
+.sobre h1{
+    font-size: 2.7em;
+    color: #424b54;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.sobre p{
+    font-size: 1.1em;
+    color: #707070;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.setas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+.ideia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #707070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8em;
+    position: relative;
+    top: 30px;
+}
+.espacamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    right: 180px;
+}
+.bandeira{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #707070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8em;
+    position: relative;
+    top: 70px;
+}
+.engrenagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #707070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8em;
+    position: relative;
+    top: 70px;
+    right: 5px;
+}
+.texto img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    right: 0 auto;
+}
+.txto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #707070;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
