@@ -11,12 +11,11 @@
     margin: 0;
 }
 body{
-    background-color: var(--background);
-    height: 2000px;
+    background-color: #efefef;
 }
 .topo{
     width: 100%;
-    height: 80px;
+    height: 150px;
 }
 .cabecalho{
     width: 100%;
@@ -25,6 +24,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image:url("../img/Caminhoooo 5.png");
+    background-position-x: -3px;
+    background-repeat: no-repeat;
+
 }
 .cabecalho ul{
     height: 100%;
@@ -36,14 +39,22 @@ body{
 .menu a{
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color:white;
     padding: 12px 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style-type: none;
 }
+.menu {
+    z-index: 99;
+}
+#img{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
 .container{
-    width: 80%;
-    max-width: 1200px;
+    width: 100%;
+    
     margin: 0 auto;
 }
 .tudo_info{
@@ -52,20 +63,23 @@ body{
     margin-top: 100px;
 }
 .tudo_info h1{
-    margin-left: 450px;
+    margin-left: 100px;
     color: var(--texto);
 }
 .informacao{
-    width: 600px;
-    height: 130px;
+    width: 460px;
+    
     background-color: var(--rosa_claro);
     margin: auto;
     margin-top: 20px;
+    text-align: center;
+    padding:30px 0px;
 }
 .informacao p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
     color: white;
+    padding:0px 143px;
 }
 .content{
     display: flex;
@@ -80,8 +94,9 @@ body{
     margin-bottom: 2em;
     display: flex;
     justify-content: flex-start;
+    
 }
-.card img{
+.card img{                                   
     width: 200px;
     height: 180px;
 }
@@ -90,6 +105,73 @@ body{
 }
 .rodape{
     width: 100%;
-    height: 200px;
-    background-color: var(--rodapé);
+    height: 387px;
+    background-color: #4F8893;
 }
+.rodape img{
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
+}
+.rodape ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 120px;
+    right: 12em;
+}
+
+.rodape a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    padding: 50px 50px;
+}
+.rodape p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #707070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    margin-left: 20em;
+    position: relative;
+    bottom: 5em;
+}
+
+
+.a {
+    background-color: brown;
+    border-bottom-right-radius: 350px;
+    border-top-left-radius: 350px;
+    border-bottom-left-radius: 350px;
+}
+
+.card {
+    margin-left: 50px;
+}
+
+@media (min-width: px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
