@@ -59,13 +59,13 @@
      .intro{
          padding-top: 40px;
          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-         padding-left: 30px;
+         padding-left: 10px;
          padding-bottom: 50px;
          
      }
 
      p{
-         font-size: 12px;
+         font-size: 9px;
          align-items: center;
      }
      /* Cadastro */
@@ -76,7 +76,7 @@ border:none ;
 outline: none;
 color: black;
 border-bottom: solid 1px black;
-width: 140px;
+width: 130px;
 padding : 5px;
 
         }
@@ -101,31 +101,147 @@ padding : 5px;
         }
 
         .booton{
-            padding-left: 135px;
+            padding-left: 100px;
             padding-top: 40px;
         }
 
-        /* inicio, responsividade  */
+        .aluno{
+          
+           
+            width: 350px;
+            height: 200px;
+            box-shadow: 4px 4px 4px 4px grey;
+            border-radius: 25px;
+        }
+        .mestre{
+            padding-left: 35px;
+        }
 
-       
+        .caont{
+           
+            align-items: center;
+            padding-top: 20px;
+        }
 
-
-
-
-     }
-
-     
-       
         
+
+
+
+        /* inicio, responsividade 800px  */
+        /* tablet 800px */
+
+        @media(min-width:800px){
+
+
+            
+            .topo{
+                width: 100%;
+                height: 80px;
+            }
+            .cabecalho{
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .cabecalho ul{
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                list-style-type: none;
+            }
+            
+
+            .intro{
+                padding-top: 40px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-left: 15px;
+                padding-bottom: 50px;
+            }
+            .mestre{
+                width: 450px;
+                padding-left: 20px ;
+            }
+
+         
+        }
+            
+    
+
+
+
+
+
+
+
+            /* inicio, responsividade web */
+            /* web */
+            @media(min-width:1366px){
+
+           .aluno{
+          
+            width: 700px;
+            height: 220px;
+            box-shadow: 4px 4px 4px 4px grey;
+            border-radius: 25px;
+            padding-top: 90px;
+            padding-left: 200px;
+         
+           
+            
+        }
+
+        .caont{
+          
+            align-items: center;
+            padding-top: 2px;
+            padding-left: 20px;
+        }
+
+        input[type="text"]{
+            border:none ;
+            outline: none;
+            color: black;
+            border-bottom: solid 1px black;
+            width: 300px;
+            padding : 5px;
+        }
+
+        .booton{
+             
+            padding-left: 275px;
+            padding-top: 40px; 
+        }
+
+        .senhas{
+            padding-left: 185px;
+            padding-top: 35px;
+        }
+
+        p{
+            font-size:18px;
+        }
+
+        .mestre{
+            width: 450px;
+            padding-left: 800px ;
+        }
+
     }
 
- 
+       
+           
 
-   
-     
 
-     
-     }
+
+
+
+
+
+
 
    
 
@@ -134,28 +250,5 @@ padding : 5px;
     
 
    
-}
 
-body{
-    background-color: #efefef;
-    height: 2000px;
-}
-.topo{
-    width: 100%;
-    height: 80px;
-}
-.cabecalho{
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.cabecalho ul{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    list-style-type: none;
-}
+
