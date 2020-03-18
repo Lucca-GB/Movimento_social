@@ -105,7 +105,7 @@ label {
 
 main {
     width: 100%;
-    height: 750px;
+    height: 300px;
     background-color: blue;
     display: block;
 }
@@ -186,6 +186,63 @@ main {
     color: white;
     cursor: pointer;
 }
+
+.chats {
+    width: 100%;
+    height:330px;
+    background-color: var(--botões);
+    background-image: url(../img/banner2.png);
+    background-size: 130% 330px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards {
+    width: 20%;
+    height: 280px;
+    background-color:var(--fundo);
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards h3 {
+    color: var(--cinzinha);
+}
+
+.img_chat1 {
+    height: 170px;
+    width: 150px;
+}
+
+.img_chat2 {
+    height: 170px;
+    width: 150px;
+}
+
+.img_chat3 {
+    height: 170px;
+    width: 90px;
+}
+
+.clique_aqui {
+    text-decoration: none;
+    color: var(--cinzinha);
+}
+
+.circle {
+    width: 17px;
+    height: 17px;
+}
+
+
+
 
 
 
