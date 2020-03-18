@@ -5,14 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre</title>
+    <script src="https://kit.fontawesome.com/d60696bc6d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="topo" id="topo">
         <div class="cabecalho">
-            <img src="img/Sem-Título-1.png" alt="logo help womens">
-            <nav class="menu">
+            <div>
+             <img src="img/Sem-Título-1.png" alt="logo help womens">
+            </div>
+            <div>
+                <img src="img/menu.svg" alt="">
+            </div>
+            
+            <nav class="menu" id="menu">
                 <ul>
                     <li><a href="Home" title="acessar página home">Home</a></li>
                     <li><a href="Movimento" title="acessar página de movimento">Movimento</a></li>
@@ -21,7 +28,6 @@
                     <li><a href="Contato" title="acessar página de contato">Contato</a></li>
                 </ul>
             </nav>
-            <img src="img/Caminhoooo 6.png" id="img" alt="imagem de uma mancha vermelha">
         </div>
     </header>
     <div class="sobre">
@@ -59,7 +65,11 @@
         <img src="img/Retângulo 32.png" alt="imagem de um retangulo">
     </div>
     <section class="texto">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute<br>irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla<br>pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia<br>deserunt mollit anim id est laborum. Colocar imagens se necessário, fazer um mini<br>artigo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute<br>irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla<br>pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia<br>deserunt mollit anim id est laborum. Colocar imagens se necessário, fazer um mini<br>artigo.</p>
     </section>
     <div class="mancha">
         <img src="img/Caminho 2@2x.png" alt="">
@@ -81,6 +91,18 @@
             <p>Todos os direitos reservados 2020</p>
         </div>
     </footer>
+
+    <script>
+        function botaoMenu() {
+            var m = document.getElementById("menu");
+            if (m.style.display == "block") {
+                m.style.display = "none";
+            } else {
+                m.style.display = "block";
+            }
+        }
+
+    </script>
 
 </body>
 
