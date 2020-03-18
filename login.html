@@ -5,9 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5a45cb8676.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <header class="topo">
+        
+        <div class="cabecalho">
+
+            
+            <img class="logo" src="img/Sem-Título-1.png" alt="logo help womens">
+
+            <a href="#" onclick="botaomenu()"> 
+                <i class="fas fa-bars"></i>
+            </a>
+            
+            
+
+                <nav id="menu">
+                    <ul>
+                        <li><a href="Home" title="acessar página home">Home</a></li>
+                        <li><a href="Movimento" title="acessar página de movimento">Movimento</a></li>
+                        <li><a href="Eventos" title="acessar página de movimento">Eventos</a></li>
+                        <li><a href="História" title="acessar página de histórico">História</a></li>
+                        <li><a href="Contato" title="acessar página de contato">Contato</a></li>
+                    </ul>
+                </nav>
+               <img class="mancha" src="img/Caminho6.png" id="img" alt="imagem de uma mancha vermelha">
+        </div>
+    </header>
+<main>
+
+ 
+
+        <div class="intro">
+            <h1>login</h1> <br>
+            <p>
+                faça seu login e esteja pronto para fazer <br>
+                doações para ajudar mulheres em todo brasil. Também <br>
+                será notificado(a) quando houver novos eventos e usar o chat
+            </p>
+        </div>
     
+        <section>
+
+            <div class="login">
+             <input type="text" name="nome" id="nome" placeholder="Nome"> ou <input type="text" name="email" id="email" placeholder="email">  
+            
+
+             <div class="senhas">
+                <input class="ssenha" type="text" name="senha" id="senha" placeholder="senha">
+             </div>
+
+
+            </div>
+
+        
+        </section>
+        
+        <div class="booton">
+     <button type="submit" class="botão">entrar</button>
+   
+        </div>
+
+        
+        
+      
+
+
+
+
+
+
+
+
+
     
+
+
+</main>
+
+
+<footer>
+
+
+</footer>
+<!-- java (botão lateral) -->
+<script>
+
+    function botaomenu(){
+
+        var m = document.getElementById("menu");
+        console.log('ok')
+        if(m.style.display == "block"){
+            m.style.display = "none";
+
+        } 
+        else{
+            m.style.display = "block";
+        }
+    }
+</script>
+    <!-- fim - java, botão lateral -->
+
+   
 </body>
 </html>

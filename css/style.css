@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* inicio resposividade 425px*/
+/*Mobile 425px*/
+
+@media(min-width:425px){
+
+    header .fa-bars{
+        color: black;
+        font-size: 3em;
+        display: block;
+        text-decoration: none;
+       
+        
+    }
+    /* icone (botão lateral) */
+    .fa-bars:before {
+        content: "\f0c9";
+    }
+    /* fim do comando */
+
+    .logo{
+        padding-left: 36px;
+    }
+
+   
+    #menu /* edição interna do menu lateral */
+    {
+        position: absolute;
+        top: 5.5em;
+        width: 100%;
+        background-color: white;
+        display: none;
+        
+    }  
+    /* fim da edição interna */
+    
+    }
+    #menu ul 
+    {
+        flex-direction: column;
+        height: 300px;
+        margin-left: 1em;
+        justify-content: space-around;
+    }
+    
+    #menu a{
+        display: block;
+        padding: 0.5em 0;
+        color: black ;
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: lightblue;*/
+     }
+
+     .intro{
+         padding-top: 40px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         padding-left: 30px;
+         padding-bottom: 50px;
+         
+     }
+
+     p{
+         font-size: 12px;
+         align-items: center;
+     }
+     /* Cadastro */
+
+     
+        input[type="text"]{
+border:none ;
+outline: none;
+color: black;
+border-bottom: solid 1px black;
+width: 140px;
+padding : 5px;
+
+        }
+
+        .login{
+            padding-left: 30px;
+        }
+        .senhas{
+            padding-left: 90px;
+            padding-top: 8px;
+
+        }
+        /* botão */
+        .botão{
+            background-color: red;
+            color: white;
+            border-radius: 50px;
+            width: 120px;
+            height: 35px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        .booton{
+            padding-left: 135px;
+            padding-top: 40px;
+        }
+
+        /* inicio, responsividade  */
+
+       
+
+
+
+
+     }
+
+     
+       
+        
+    }
+
+ 
+
+   
+     
+
+     
+     }
+
+   
+
+
+
+    
+
+   
+}
+
+body{
+    background-color: #efefef;
+    height: 2000px;
+}
+.topo{
+    width: 100%;
+    height: 80px;
+}
+.cabecalho{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalho ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;
+}
