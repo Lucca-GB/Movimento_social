@@ -169,13 +169,6 @@ padding : 5px;
          
         }
             
-    
-
-
-
-
-
-
 
             /* inicio, responsividade web */
             /* web */
@@ -190,8 +183,6 @@ padding : 5px;
             padding-top: 90px;
             padding-left: 200px;
          
-           
-            
         }
 
         .caont{
@@ -232,6 +223,17 @@ padding : 5px;
             padding-left: 200px ;
         }
 
+    }
+
+
+
+
+
+    /* inicio "css" para a pagina "faça_parte" */
+
+    @media(min-width:425px){
+
+        
     }
 
        
