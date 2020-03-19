@@ -18,6 +18,12 @@ body{
     width: 100%;
     height: 150px;
 }
+header .fa-bars{
+    color: var(--texto);
+    font-size: 3em;
+    display: block;
+    margin-left: 30px;
+}
 .cabecalho{
     width: 100%;
     height: 100px;
@@ -45,14 +51,24 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style-type: none;
 }
-.menu {
-    z-index: 99;
-}
-#img{
+#menu{
     position: absolute;
-    right: 0;
-    z-index: 1;
+    top: 5.5em;
+    width: 100%;
+    background-color: var(--texto);
+    left: 0;
+    display: none;
 }
+#menu ul{
+    flex-direction: column;
+    height: 200px;
+    margin-left: 1em;
+}
+#menu a{
+    display: block;
+    padding: 0.5em 0;
+}
+
 .container{
     width: 100%;
     
@@ -65,10 +81,10 @@ body{
 .tudo_info h1{
     margin-left: 60px;
     color: var(--texto);
-    font-size: 1.7em;
+    font-size: 1.6em;
 }
 .barrinha{
-    margin-left: 50px;
+    margin-left: 100px;
     color: var(--texto);
 }
 
@@ -132,10 +148,7 @@ footer{
 }
 .englobamento{
     display: flex;
-    
     margin-top: 5px;
-  
-    
 }
 .rodape img{
     width: 90px;
@@ -156,18 +169,13 @@ footer{
     
 }
 .voltarAOTopo{
-    list-style-type: none;
-    
-    
+    list-style-type: none;  
 }
 
 .rodape a{
     list-style-type: none;
     text-decoration: none;
     color: white;
-
-     
-
 }   
 .rodape p{
     display: flex;
@@ -191,10 +199,13 @@ footer{
     height: -60px;
 }
 
+/* fim mobile 425px */
 
 
 @media (min-width: 800px) {
-
+header .fa-bars{
+    display: none;
+}
 
 
 
@@ -211,7 +222,8 @@ footer{
 
 
     
-}
+}/* fim 800px */
+
 
 @media (min-width: 1366px){
 
@@ -222,6 +234,6 @@ footer{
 
 
 
-}
+}/* fim 1366px */
 
 

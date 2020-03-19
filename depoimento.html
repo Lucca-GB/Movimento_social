@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Depoimento</title>
+    <script src="https://kit.fontawesome.com/d755ec8ea5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
      
 </head>
 <body>
     <header class="topo" id="topo">
         <div class="cabecalho">
-        
-            <a href="index.html" title="acessar a home">
+        <div>
+            <a href="#" onclick="botaoMenu()">
+                <i class="fas fa-bars"></i>
+                </a>
+        </div>
+            
             <img src="img/Sem-Título-1.png" alt="logo help womens">
-            <nav class="menu" >
+            <nav class="menu" id="menu">
                 <ul>
                     <li><a href="Home" title="acessar página home">Home</a></li>
                     <li><a href="Movimento" title="acessar página de movimento">Movimento</a></li>
@@ -32,7 +36,7 @@
             <div class="tudo_info">
                 <h1>Depoimentos de ex-vítimas</h1>
 
-                <H2 class="barrinha">___________________________________</H2>
+                <img class="barrinha" src="img/Linha 1.png" alt="barrinha">
              <div class="informacao">
                  <p>Nessa sessão você irá encontrar alguns 
                     relatos de mulheres que passaram o
@@ -105,7 +109,7 @@
     </footer>
 
   <script>
-        function btnMenu(){
+        function botaoMenu(){
 
             var menu = document.getElementById("menu");
 
