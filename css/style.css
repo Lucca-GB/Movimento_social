@@ -105,7 +105,7 @@ label {
 
 main {
     width: 100%;
-    height: 300px;
+    height: 100%;
     background-color: blue;
     display: block;
 }
@@ -127,6 +127,10 @@ main {
     flex-direction: column;
     width: 100%;
     background-color: blueviolet;
+}
+
+.ajuda h2 {
+    font-weight: 500;
 }
 
 .ajuda hr {
@@ -240,6 +244,83 @@ main {
     width: 17px;
     height: 17px;
 }
+
+.depoimentos {
+    width:100%;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.depoimentos h2 {
+    color: var(--cinzinha);
+    font-weight: 500;
+}
+
+.depoimentos_cards {
+    width: 100%;
+    height: 200px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.depoimentos_card {
+    width: 30%;
+    height: 80%;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2em;
+    padding: 0.3em;
+}
+
+.fotoicon {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-quote-left {
+    color: var(--cinzinha);
+}
+
+.fotinha {
+    height: 90%;
+    width: 55%;
+    max-width: 57px;
+    background-color: royalblue;
+    border-radius: 50%;
+    background-image: url(../img/Ednaldo_Pereira.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.texto_depoimento {
+    width: 100%;
+    height: 60%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+} 
+
+.btn_depoimentos {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
 
 
 
