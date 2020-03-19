@@ -106,7 +106,6 @@ label {
 main {
     width: 100%;
     height: 100%;
-    background-color: blue;
     display: block;
 }
 
@@ -126,7 +125,6 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: blueviolet;
 }
 
 .ajuda h2 {
@@ -261,7 +259,6 @@ main {
 .depoimentos_cards {
     width: 100%;
     height: 200px;
-    background-color: greenyellow;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -270,13 +267,13 @@ main {
 .depoimentos_card {
     width: 30%;
     height: 80%;
-    background-color: hotpink;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 2em;
     padding: 0.3em;
     box-shadow: 2px 2px black;
+    border: 1px solid var(--cinzinha);
 }
 
 .fotoicon {
@@ -294,7 +291,6 @@ main {
     height: 90%;
     width: 55%;
     max-width: 57px;
-    background-color: royalblue;
     border-radius: 50%;
     background-image: url(../img/Ednaldo_Pereira.jpg);
     background-repeat: no-repeat;
@@ -318,7 +314,6 @@ main {
 .juntar-se {
     width: 100%;
     height: 270px;
-    background-color: crimson;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -330,7 +325,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: darkgray;
     margin-bottom: 50px;
     font-size: 1.4em;
 }
@@ -340,6 +334,7 @@ main {
     padding: 0.2em;
     cursor: pointer;
     font-size: 2em;
+    margin-bottom: 1em
 }
 
 footer {
@@ -354,7 +349,6 @@ footer {
 .rodape_logo {
     width: 30%;
     height: 150px;
-    background-color: greenyellow;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -366,7 +360,6 @@ footer {
 .rodape_pages {
     width: 30%;
     height: 150px;
-    background-color: greenyellow;
 }
 
 .rodape_pages ul {
@@ -384,7 +377,6 @@ footer {
 .rodape_mensagem {
     width: 30%;
     height: 150px;
-    background-color: greenyellow;
     text-align: left;
     display: flex;
     justify-content: center;
