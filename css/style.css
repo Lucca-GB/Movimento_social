@@ -276,6 +276,7 @@ main {
     align-items: center;
     border-radius: 2em;
     padding: 0.3em;
+    box-shadow: 2px 2px black;
 }
 
 .fotoicon {
@@ -345,6 +346,50 @@ footer {
     width: 100%;
     height: 180px;
     background-color: var(--rodapé);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape_logo {
+    width: 30%;
+    height: 150px;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white
+}
+
+.rodape_pages {
+    width: 30%;
+    height: 150px;
+    background-color: greenyellow;
+}
+
+.rodape_pages ul {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 1em;
+}
+
+.rodape_pages ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.rodape_mensagem {
+    width: 30%;
+    height: 150px;
+    background-color: greenyellow;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white
 }
 
 
@@ -417,5 +462,13 @@ footer {
 
     .texto1 p {
         font-size: 1.2em;
+    }
+    .juntar-se {
+        align-items: center;
+    }
+    .text_juntar {
+        align-items: center;
+        text-align: center;
+        font-size: 2em;
     }
 }
