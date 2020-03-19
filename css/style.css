@@ -183,7 +183,7 @@ padding : 5px;
 
            .aluno{
           
-            width: 700px;
+            width:850px;
             height: 220px;
             box-shadow: 4px 4px 4px 4px grey;
             border-radius: 25px;
@@ -195,10 +195,8 @@ padding : 5px;
         }
 
         .caont{
-          
-            align-items: center;
             padding-top: 2px;
-            padding-left: 20px;
+            padding-left: 5px;
         }
 
         input[type="text"]{
@@ -208,6 +206,10 @@ padding : 5px;
             border-bottom: solid 1px black;
             width: 300px;
             padding : 5px;
+        }
+
+        .login{
+            padding-left: 5px;
         }
 
         .booton{
@@ -227,7 +229,7 @@ padding : 5px;
 
         .mestre{
             width: 450px;
-            padding-left: 800px ;
+            padding-left: 200px ;
         }
 
     }
