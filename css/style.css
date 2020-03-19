@@ -71,8 +71,7 @@ header .fa-bars{
 
 .container{
     width: 100%;
-    
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .tudo_info{
     width: 100%;
@@ -198,23 +197,42 @@ footer{
     border-radius: 15px;
     height: -60px;
 }
+.tst3{
+display: none;
+}
 
 /* fim mobile 425px */
 
 
 @media (min-width: 800px) {
+
 header .fa-bars{
     display: none;
+}
+.card{
+    margin-left: 5px;
 }
 
 
 
 
+.barrinha{
+    width: 400px;
+    margin-left: 190px;
+}
 
-
-
-
-
+.tst1{
+    display: flex;  
+}
+.tst2{
+    display: flex;  
+}
+.tst3{
+    display: flex;
+}
+.btn button{
+    margin-left: 300px;
+}
 
 
 
