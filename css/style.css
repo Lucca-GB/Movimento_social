@@ -314,6 +314,39 @@ main {
     justify-content: center;
 }
 
+.juntar-se {
+    width: 100%;
+    height: 270px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text_juntar {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: darkgray;
+    margin-bottom: 50px;
+    font-size: 1.4em;
+}
+
+.btn_final {
+    border-color: var(--rodapé);
+    padding: 0.2em;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+footer {
+    width: 100%;
+    height: 180px;
+    background-color: var(--rodapé);
+}
+
 
 
 
