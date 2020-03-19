@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fundo: #EFEFEF;
+    --imagem_fundo: #ed4b51;
+    --botões: #AD1F3B;
+    --rodapé: #4F8893;
+    --cinzinha: #424B54;
+}
+
+body {
+    background-color: var(--fundo);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: var(--fundo);
+    display: block;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 12%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--imagem_fundo);
+}
+
+.logo {
+    width: 75px;
+    height: auto;
+}
+
+.cabecalho nav {
+    text-align: right;
+    display: block;
+}
+
+.hamburguer {
+    width: 40%;
+    margin-top: 5px;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+label {
+    margin: 0 40px 0 0;
+    display: block;
+    cursor: pointer;
+}
+
+#toggle {
+    display: none;
+}
+
+#toggle:checked + .menu {
+    display: block;
+}
+
+main {
+    width:100%;
+    height: 625px;
+}
+
+footer {
+    width: 100%;
+    height: 180px;
+    background-color: var(--rodapé);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape_logo {
+    width: 30%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white
+}
+
+.rodape_pages {
+    width: 30%;
+    height: 150px;
+}
+
+.rodape_pages ul {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 1em;
+}
+
+.rodape_pages ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.rodape_mensagem {
+    width: 30%;
+    height: 150px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white
+}
+
+/*tablet*/
+@media (min-width: 426px) {
+    label {
+        display: none;
+    }
+
+    .cabecalho nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+    }
+    .menu a {
+        border-bottom: none;
+        padding-left: 2%;
+        color: white;
+    }
+}
+
+/*desktop*/
+@media (min-width: 800px) {
+
+}
