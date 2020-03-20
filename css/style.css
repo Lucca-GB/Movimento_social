@@ -30,10 +30,8 @@ header .fa-bars{
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: var(--rosa_claro);
-    background-position-x: -3px;
-    background-repeat: no-repeat;
 
 }
 .cabecalho ul{
@@ -136,10 +134,9 @@ footer{
 
 .btn button{
    padding: 5px 20px;
-   margin-left: 150px;
+   margin-left: 160px;
    margin-bottom: 40px;
    margin-top: 10px;
-   
 }
 
 .rodape nav{
@@ -183,6 +180,7 @@ footer{
     color: #707070;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 30px;
+    font-size: 1.4em;
 }
 
 .a h2{
@@ -205,22 +203,24 @@ display: none;
 
 
 @media (min-width: 800px) {
-
 header .fa-bars{
     display: none;
 }
-.card{
-    margin-left: 5px;
+
+.a{
+    width: 100px;
 }
-
-
-
-
+.tudo_info h1{
+    font-size: 2em;
+    margin-left: 180px;
+}
 .barrinha{
     width: 400px;
     margin-left: 190px;
 }
-
+.informacao{
+    padding: 30px 80px;
+}
 .tst1{
     display: flex;  
 }
@@ -231,20 +231,28 @@ header .fa-bars{
     display: flex;
 }
 .btn button{
-    margin-left: 300px;
+    margin-left: 350px;
 }
+.rodape a{
+    font-size: 1.5em;
+}
+.rodape p{
+    margin-left: 60px;
+    font-size: 3.2em;
 
-
-
-
-
-
+    }
     
 }/* fim 800px */
 
 
 @media (min-width: 1366px){
-
+.tudo_info h1{
+    font-size: 2.5em;
+    margin-left: 400px;
+}
+.barrinha{
+    
+}
 
 
 
