@@ -251,15 +251,37 @@ header .fa-bars{
     margin-left: 400px;
 }
 .barrinha{
-    
+    margin-left: 455px;
 }
-
-
-
-
-
-
-
+.informacao p{
+    font-size: 1.4em;
+    padding: 0px 300px;
+    margin-left: -50px;
+}
+.btn button{
+    padding: 5px 70px;
+    margin-left: 580px;
+}
+.tst1{
+    margin-left: 230px;
+}
+.tst2{
+    margin-left: 230px;
+}
+.tst3{
+    margin-left: 230px;
+}
+.a h2{
+    font-size: 0.9em;
+}
+.card img{
+    width: 180px;
+}
+.rodape p{
+    margin-left: 112px;
+    font-size: 6.2em;
+    }
+    
 }/* fim 1366px */
 
 
