@@ -326,7 +326,7 @@ section{
           
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 18px;
-        padding-left: 3px;
+        padding-left: 30px;
         padding-bottom: 15px;
 
         
@@ -403,8 +403,8 @@ section{
         h2{
           
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                font-size: 12px;
-                padding-left: 60px;
+                font-size: 14px;
+                padding-left: 45px;
                 padding-bottom: 15px;
            
 
@@ -437,20 +437,65 @@ section{
 
 
 
-        
-       
-
-       
-     
-
-        
-
-
-
+    
 
 
 
     }
+
+/* resolução em 1366 web */
+    @media(min-width:1366px){
+
+        .linha{
+            width:230px;
+            padding-left: 544px;
+            padding-bottom: 80px;
+            
+        }
+
+
+
+        .deus{
+            width: 1000px;
+            padding-left: 200px;
+            
+        }
+      
+        h1{
+            padding-left: 390px;
+            width: 100%;
+            display: flex;
+            padding-bottom: 17px;
+            font-size: 30px
+              
+               
+           }
+
+           h3{
+               padding-left: 239px;
+               padding-bottom: 40px;
+           }
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
        
            
 
