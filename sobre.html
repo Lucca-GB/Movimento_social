@@ -4,29 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre</title>
-    <script src="https://kit.fontawesome.com/d60696bc6d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Movimento social-ajuda</title>
+    <link rel="stylesheet" href="css/sobre.css">
 </head>
 
 <body>
     <header class="topo" id="topo">
         <div class="cabecalho">
-            <div>
-             <img src="img/Sem-Título-1.png" alt="logo help womens">
-            </div>
-            <div>
-                <img src="img/menu.svg" alt="">
-            </div>
-            
-            <nav class="menu" id="menu">
-                <ul>
-                    <li><a href="Home" title="acessar página home">Home</a></li>
-                    <li><a href="Movimento" title="acessar página de movimento">Movimento</a></li>
-                    <li><a href="Eventos" title="acessar página de movimento">Eventos</a></li>
-                    <li><a href="História" title="acessar página de histórico">História</a></li>
-                    <li><a href="Contato" title="acessar página de contato">Contato</a></li>
-                </ul>
+            <img class="logo" src="img/Sem-Título-1.png" alt="Logo Help Women.">
+            <nav>
+                <label for="toggle"><img class="hamburguer" src="img/menu.svg" alt="Menu de navegação."></label>
+                <input type="checkbox" id="toggle">
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">Eventos</a>
+                    <a href="#">Movimento</a>
+                    <a href="#">História</a>
+                    <a href="#">Contato</a>
+                </div>
             </nav>
         </div>
     </header>
@@ -75,34 +70,22 @@
         <img src="img/Caminho 2@2x.png" alt="">
     </div>
     <footer>
-        <div class="rodape">
-            <li><a href="#topo" title="botao de voltar ao topo">Voltar ao topo</a></li>
+        <div class="rodape_ajuda">
+            <li><a href="#">Voltar ao topo</a></li>
             <nav>
                 <ul>
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="Movimento.html">Movimento</a></li>
-                    <li><a href="Eventos.html">Eventos</a></li>
-                    <li><a href="História.html">História</a></li>
-                    <li><a href="Contato.html">Contatos</a></li>
-                    <li><a href="Doacoes.html">Doações</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Movimento</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">História</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Doações</a></li>
                 </ul>
             </nav>
             <img src="img/Sem-Título-1.png" alt="imagem do logo">
             <p>Todos os direitos reservados 2020</p>
         </div>
     </footer>
-
-    <script>
-        function botaoMenu() {
-            var m = document.getElementById("menu");
-            if (m.style.display == "block") {
-                m.style.display = "none";
-            } else {
-                m.style.display = "block";
-            }
-        }
-
-    </script>
 
 </body>
 
