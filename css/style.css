@@ -262,7 +262,7 @@ padding : 5px;
 
        
 
-        h2{
+        h3{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-size: 12px;
             padding-left: 65px;
@@ -322,9 +322,15 @@ section{
            
            flex-wrap: wrap;
        }
+       h2{
+          
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        padding-left: 3px;
+        padding-bottom: 15px;
 
         
-    
+       }
 
         
         
@@ -335,7 +341,9 @@ section{
 
     @media(min-width:800px){
 
-        
+        body{
+            width: 100%;
+        }
         header{
             width: 100%;
             height: 100px;
@@ -346,15 +354,90 @@ section{
 
         .deus{
             display: flex;
-            padding-left: 150px;
+            justify-content: space-around;
+            padding-left: 15px;
+            
         }
         h1{
-            padding-left: 100px;
+            padding-left: 205px;
             width: 100%;
             display: flex;
+            padding-bottom: 17px;
               
               
            }
+
+           .card{
+            width: 240px;
+            height: 190px;
+            box-shadow: 4px 4px 4px 4px grey;
+            border-radius: 30px;
+   
+        }
+
+        .retred{ 
+            width: 90px;
+            height: 55px;
+            padding-top: 10px;
+        }
+
+        .mae{
+            padding-right: 10px;
+        }
+
+        .textcard{
+            width: 70px;
+            /* height: 75px; */
+            padding-top: 18px;
+            padding-left: 20px;
+            padding-bottom: 18px;
+            text-align: left;
+        }
+
+        .retangulo{
+            width: 115px;
+            height: 80px;
+            padding-left: 10px;
+        }
+
+        h2{
+          
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 12px;
+                padding-left: 60px;
+                padding-bottom: 15px;
+           
+
+        }
+
+        .linha{
+            width:230px;
+            padding-left: 270px;
+            padding-bottom: 80px;
+            
+        }
+
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             font-size: 13px; 
+            padding-left: 10px; 
+        }
+
+        .pai{
+            padding-bottom: 10px;
+        }
+
+        h3{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+            padding-left: 60px;
+            padding-bottom:25px;
+       
+        }
+
+
+
+        
        
 
        
