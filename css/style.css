@@ -281,7 +281,86 @@ header .fa-bars{
     margin-left: 112px;
     font-size: 6.2em;
     }
-    
+
 }/* fim 1366px */
 
+/* inicio css cadastro 425px*/
+.txt h1{
+    font-size: 1.8em;
+    margin-left: 40px;
+}
+.txt p{
+    font-size: 0.9em;
+    padding: 15px 60px;
+}
+.form_cadastro{
+    width: 100%;
+    max-width: 350px;
+    margin: 1em auto;
+    box-shadow: -1px 5px 15px #000000;
+    padding: 1.5em;
+    border-radius: 15px;
+    margin-bottom: 3em;
+}
+.campo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+.campo label{
+    text-transform: uppercase;
+}
+input[type="text"],input[type="password"],.campo input[type="email"],input[type="date"]
+select{
+    width: 50%;
+    background-color: var(--background);
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #7278c3;
+    color: #cccccc;
+}
+.campo input:focus{
+    background-color: #2f2f2f;
+}
+.campo fieldset{
+    border: none;
+}
+.campo fieldset label{
+    margin: 2em 1em 2em 0;
+}
+.botao button{ 
+    background-color: var(--rosa_claro);
+    color: var(--background);
+    border-radius: 30px;
+    padding: 0px 30px;
+}
 
+/* fim media 425px */
+
+/* inicio 800px cadastro */
+@media (min-width: 800px){
+.txt h1{
+    padding: 0px 140px;
+}
+.txt p{
+    padding: 15px 100px;
+}
+.form_cadastro{
+    max-width: 400px;
+    height: 300px;
+}
+
+}/* fim 800px cadastro */
+
+/* inicio 1366px cadastro */
+@media (min-width: 1366px){
+.txt h1{
+    font-size: 3em;
+}
+.txt p{
+   font-size: 1.8em;
+   padding: 15px 295px; 
+}
+
+
+}
